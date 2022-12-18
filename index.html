@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample page</title>
+  <style>
+    body {
+      background-color: #373737;
+      color: #376937;
+      display: flex;
+      min-height: 100vh;
+      align-items: center;
+      justify-content: center;
+      font-size: 3rem;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    main {
+      aspect-ratio: 1;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 3rem;
+      background-color: #37da37;
+      animation: bulge .7s infinite;
+      box-shadow: 0 0 30px -2px #dadada;
+      border: 2px solid #376937;
+    }
+    @keyframes bulge {
+      0%,100% {
+        padding: 3rem;
+      }
+      10%, 90% {
+        font-weight: 300;
+        padding: 3.3rem;
+      }
+      40%,60% {
+        padding: 5.2rem;
+        font-weight: 900;
+      }
+      50% {
+        padding: 5.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    WOW
+  </main>
+</body>
+</html>
